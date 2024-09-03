@@ -8,4 +8,5 @@ export default class Docente extends User {
     aprovarEstudante(estudante, curso) {
         return `Estudante ${estudante} passou no curso de ${curso}, responsável: ${this.nome}.`
     }
+    
 }

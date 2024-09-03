@@ -8,4 +8,9 @@ export default class Admin extends User {
     criarCursos(nomeCurso, qtdVagas){
         return `curso ${nomeCurso} criado com ${qtdVagas} vagas`
     }
+
+    // exibirInfos() {
+    //     const infos = super.exibirInfos()
+    //     return `admininastro - ${infos}`;
+    // }
 }
